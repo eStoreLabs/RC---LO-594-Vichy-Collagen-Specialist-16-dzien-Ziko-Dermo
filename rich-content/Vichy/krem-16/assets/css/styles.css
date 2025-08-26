@@ -103,7 +103,7 @@ body {
 #es-rc #es-rc-content .es-kv__content {
   padding-left: 10px;
   padding-right: 10px;
-  padding-top: 35px;
+  padding-top: ;
   padding-bottom: 5px;
   margin-bottom: 30px;
   background: #bf001a;
@@ -270,7 +270,7 @@ body {
   max-width: 100%;
   display: block;
   margin: 0 auto;
-  height: 35px;
+  height: ;
   margin-top: 5px;
 }
 #es-rc #es-rc-content .es-collagen__disclaimer {
@@ -1407,7 +1407,7 @@ body {
     min-height: 490px;
   }
   #es-rc #es-rc-content .es-formula__title {
-    font-size: 35px;
+    font-size: 28px;
     padding-right: 50px;
   }
   #es-rc #es-rc-content .es-routine__step {
