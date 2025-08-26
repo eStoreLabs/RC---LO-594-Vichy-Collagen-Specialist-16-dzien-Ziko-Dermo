@@ -161,7 +161,7 @@ body {
   position: relative;
   padding-top: 50px;
   padding-bottom: 50px;
-  background: url(/rich-content/Vichy/Collagen-16/assets/img/16-collagen-bg.png)
+  background: url(/rich-content/Vichy/krem-16/assets/img/16-collagen-bg.png)
     center center no-repeat;
   background-size: cover;
 }
@@ -464,7 +464,7 @@ body {
   height: 19px;
   top: 35%;
   right: 2%;
-  background: url(/rich-content/Vichy/Collagen-16/assets/img/plus.png) 50% 50%
+  background: url(/rich-content/Vichy/krem-16/assets/img/plus.png) 50% 50%
     no-repeat;
   color: #fff;
   text-align: center;
@@ -473,7 +473,7 @@ body {
   transition: all 200ms ease-out;
 }
 #es-rc #es-rc-content .es-faq .es-accordion .es-acc-tab.es-acc-active:before {
-  background: url(/rich-content/Vichy/Collagen-16/assets/img/plus.png) 50% 50%
+  background: url(/rich-content/Vichy/krem-16/assets/img/plus.png) 50% 50%
     no-repeat;
   -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
@@ -1064,7 +1064,7 @@ body {
     -webkit-box-align: center;
     align-items: center;
     min-height: 238px;
-    background: url(/rich-content/Vichy/Collagen-16/assets/img/header-image.png)
+    background: url(/rich-content/Vichy/krem-16/assets/img/header-image.png)
       center center no-repeat;
     background-size: cover;
     gap: 10px;
@@ -1087,7 +1087,7 @@ body {
   #es-rc #es-rc-content .es-kv {
     position: relative;
     min-height: 445px;
-    background: url(/rich-content/Vichy/Collagen-16/assets/img/kv-photo.png)
+    background: url(/rich-content/Vichy/krem-16/assets/img/kv-photo.png)
       center right no-repeat;
     background-size: cover;
   }
@@ -1242,7 +1242,7 @@ body {
     line-height: 1.5;
   }
   #es-rc #es-rc-content .es-formula {
-    background: url(/rich-content/Vichy/Collagen-16/assets/img/formula-image.png)
+    background: url(/rich-content/Vichy/krem-16/assets/img/formula-image.png)
       center center no-repeat;
     background-size: cover;
     min-height: 375px;
@@ -1264,7 +1264,7 @@ body {
     min-height: 490px;
     padding-top: 100px;
     padding-bottom: 100px;
-    background: url(/rich-content/Vichy/Collagen-16/assets/img/routine-bg.png)
+    background: url(/rich-content/Vichy/krem-16/assets/img/routine-bg.png)
       calc(100% + 100px) center no-repeat;
     background-size: cover;
     display: -webkit-box;
@@ -1402,7 +1402,7 @@ body {
     margin-bottom: 30px;
   }
   #es-rc #es-rc-content .es-formula {
-    background: url(/rich-content/Vichy/Collagen-16/assets/img/formula-image.png)
+    background: url(/rich-content/Vichy/krem-16/assets/img/formula-image.png)
       calc(50% + 75px) center no-repeat;
     min-height: 490px;
   }
