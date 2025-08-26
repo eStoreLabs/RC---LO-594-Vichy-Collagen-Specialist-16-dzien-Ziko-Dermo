@@ -103,7 +103,7 @@ body {
 #es-rc #es-rc-content .es-kv__content {
   padding-left: 10px;
   padding-right: 10px;
-  padding-top: ;
+  padding-top: 35px;
   padding-bottom: 5px;
   margin-bottom: 30px;
   background: #bf001a;
@@ -153,6 +153,11 @@ body {
   font-size: 20px;
   text-transform: uppercase;
 }
+#rc-vichy-krem-16 #rc-vichy-krem-16-content .es-collagen__before-title,
+#rc-vichy-krem-16 #rc-vichy-krem-16-content .es-collagen__after-title {
+  margin: auto;
+  margin-left: 0;
+}
 #es-rc #es-rc-content .es-collagen__title--big {
   margin-top: -5px;
   font-size: 50px;
@@ -161,7 +166,7 @@ body {
   position: relative;
   padding-top: 50px;
   padding-bottom: 50px;
-  background: url(/rich-content/Vichy/krem-16/assets/img/16-collagen-bg.png)
+  background: url(../img/16-collagen-bg.png)
     center center no-repeat;
   background-size: cover;
 }
@@ -220,7 +225,7 @@ body {
   left: 42%;
 }
 #es-rc #es-rc-content .es-collagen__item--10 {
-  top: 80%;
+  top: 82%;
   left: 27%;
 }
 #es-rc #es-rc-content .es-collagen__item--11 {
@@ -270,7 +275,7 @@ body {
   max-width: 100%;
   display: block;
   margin: 0 auto;
-  height: ;
+  height: 35px;
   margin-top: 5px;
 }
 #es-rc #es-rc-content .es-collagen__disclaimer {
@@ -464,8 +469,8 @@ body {
   height: 19px;
   top: 35%;
   right: 2%;
-  background: url(/rich-content/Vichy/krem-16/assets/img/plus.png) 50% 50%
-    no-repeat;
+  background: url(../img/plus.png)
+    50% 50% no-repeat;
   color: #fff;
   text-align: center;
   line-height: 50px;
@@ -473,54 +478,13 @@ body {
   transition: all 200ms ease-out;
 }
 #es-rc #es-rc-content .es-faq .es-accordion .es-acc-tab.es-acc-active:before {
-  background: url(/rich-content/Vichy/krem-16/assets/img/plus.png) 50% 50%
-    no-repeat;
+  background: url(../img/plus.png)
+    50% 50% no-repeat;
   -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 #es-rc #es-rc-content .es-faq .es-accordion > div:last-of-type {
   margin-bottom: 0;
-}
-#es-rc #es-rc-content .es-video {
-  padding-left: 15px;
-  padding-right: 15px;
-}
-#es-rc #es-rc-content .es-video__wrapper {
-  position: relative;
-  margin-bottom: 50px;
-}
-#es-rc #es-rc-content .es-video__player {
-  display: block;
-  margin: 0 auto;
-  width: 100%;
-  -o-object-fit: cover;
-  object-fit: cover;
-}
-#es-rc #es-rc-content .es-video__play-button {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  cursor: pointer;
-}
-#es-rc #es-rc-content .es-video__image-icon {
-  width: 53px;
-  height: 53px;
-}
-#es-rc #es-rc-content .es-video__image-icon--desktop {
-  width: 116px;
-  height: 116px;
-}
-#es-rc #es-rc-content .es-video__additional-description {
-  min-width: 320px;
-  margin-bottom: 32px;
-}
-#es-rc #es-rc-content .es-video__additional-description strong {
-  text-transform: none;
-}
-#es-rc #es-rc-content .es-video__play-button--desktop {
-  display: none;
 }
 #es-rc #es-rc-content .es-compare {
   padding-left: 5px;
@@ -668,12 +632,15 @@ body {
 }
 #es-rc #es-rc-content .es-compare__problem-subtitle {
   min-height: 90px;
+  padding: 20px;
 }
 #es-rc #es-rc-content .es-compare__action-subtitle {
   min-height: 98px;
+  padding: 20px;
 }
 #es-rc #es-rc-content .es-compare__consistency-subtitle {
   min-height: 98px;
+  padding: 20px;
 }
 #es-rc #es-rc-content .es-compare__inner {
   display: -webkit-box;
@@ -862,30 +829,6 @@ body {
   margin-left: 35px;
   margin-bottom: 64px;
 }
-
-#es-rc #es-rc-content .es-video {
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 25px;
-  padding-bottom: 75px;
-}
-#es-rc #es-rc-content .es-video__wrapper {
-  position: relative;
-  margin-bottom: 50px;
-  margin: 0 auto;
-  width: 100%;
-}
-#es-rc #es-rc-content .es-video iframe {
-  margin: 0 auto;
-  display: block;
-  max-width: 100%;
-  border: 0;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  min-height: 185px;
-}
 @media screen and (min-width: 400px) {
   #es-rc #es-rc-content .es-routine__step {
     max-width: 365px;
@@ -940,12 +883,12 @@ body {
     left: 73%;
   }
   #es-rc #es-rc-content .es-collagen__item--8 {
-    top: 85%;
+    top: 88%;
     left: 60%;
   }
   #es-rc #es-rc-content .es-collagen__item--9 {
-    top: 89%;
-    left: 44%;
+    top: 91%;
+    left: 42%;
   }
   #es-rc #es-rc-content .es-collagen__item--10 {
     top: 86%;
@@ -953,11 +896,11 @@ body {
   }
   #es-rc #es-rc-content .es-collagen__item--11 {
     top: 75%;
-    left: 12%;
+    left: 11%;
   }
   #es-rc #es-rc-content .es-collagen__item--12 {
     top: 62%;
-    left: 6%;
+    left: 5%;
   }
   #es-rc #es-rc-content .es-collagen__item--13 {
     top: 46%;
@@ -970,18 +913,6 @@ body {
   #es-rc #es-rc-content .es-collagen__item--16 {
     top: 5%;
     left: 25%;
-  }
-  #es-rc #es-rc-content .es-video__player--mobile {
-    display: none;
-  }
-  #es-rc #es-rc-content .es-video__player--desktop {
-    display: block;
-  }
-  #es-rc #es-rc-content .es-video__play-button--mobile {
-    display: none;
-  }
-  #es-rc #es-rc-content .es-video__play-button--desktop {
-    display: block;
   }
   #es-rc #es-rc-content .es-bonding {
     margin-top: 50px;
@@ -1046,9 +977,6 @@ body {
   #es-rc #es-rc-content .slick-button-2-next {
     display: none;
   }
-  #es-rc #es-rc-content .es-video iframe {
-    min-height: 400px;
-  }
 }
 @media screen and (min-width: 1241px) {
   #es-rc #es-rc-content .es-title {
@@ -1064,7 +992,7 @@ body {
     -webkit-box-align: center;
     align-items: center;
     min-height: 238px;
-    background: url(/rich-content/Vichy/krem-16/assets/img/header-image.png)
+    background: url(../img/header-image.png)
       center center no-repeat;
     background-size: cover;
     gap: 10px;
@@ -1073,7 +1001,7 @@ body {
     max-width: 200px;
   }
   #es-rc #es-rc-content .es-header__title {
-    min-width: 400px;
+    min-width: 350px;
   }
   #es-rc #es-rc-content .es-header__description {
     font-size: 13px;
@@ -1087,8 +1015,8 @@ body {
   #es-rc #es-rc-content .es-kv {
     position: relative;
     min-height: 445px;
-    background: url(/rich-content/Vichy/krem-16/assets/img/kv-photo.png)
-      center right no-repeat;
+    background: url(../img/kv-photo.png)
+      center center no-repeat;
     background-size: cover;
   }
   #es-rc #es-rc-content .es-kv__content {
@@ -1153,6 +1081,7 @@ body {
   }
   #es-rc #es-rc-content .es-collagen__after-img {
     margin: 0;
+    width: 59%;
   }
   #es-rc #es-rc-content .es-collagen__disclaimer {
     position: absolute;
@@ -1207,7 +1136,7 @@ body {
     left: 32%;
   }
   #es-rc #es-rc-content .es-collagen__item--11 {
-    top: 74%;
+    top: 78%;
     left: 18%;
   }
   #es-rc #es-rc-content .es-collagen__item--12 {
@@ -1233,16 +1162,16 @@ body {
   #es-rc #es-rc-content .es-bonding__title {
     text-align: left;
     font-weight: 400;
-    font-size: 35px;
+    font-size: 20px;
   }
   #es-rc #es-rc-content .es-bonding__description {
     margin-top: -10px;
     max-width: 80%;
-    font-size: 20px;
+    font-size: 15px;
     line-height: 1.5;
   }
   #es-rc #es-rc-content .es-formula {
-    background: url(/rich-content/Vichy/krem-16/assets/img/formula-image.png)
+    background: url(../img/formula-image.png)
       center center no-repeat;
     background-size: cover;
     min-height: 375px;
@@ -1264,7 +1193,7 @@ body {
     min-height: 490px;
     padding-top: 100px;
     padding-bottom: 100px;
-    background: url(/rich-content/Vichy/krem-16/assets/img/routine-bg.png)
+    background: url(../img/routine-bg.png)
       calc(100% + 100px) center no-repeat;
     background-size: cover;
     display: -webkit-box;
@@ -1402,12 +1331,13 @@ body {
     margin-bottom: 30px;
   }
   #es-rc #es-rc-content .es-formula {
-    background: url(/rich-content/Vichy/krem-16/assets/img/formula-image.png)
+    background: url(../img/formula-image.png)
       calc(50% + 75px) center no-repeat;
-    min-height: 490px;
+    max-height: 300px;
+    background-size: cover;
   }
   #es-rc #es-rc-content .es-formula__title {
-    font-size: 28px;
+    font-size: 20px;
     padding-right: 50px;
   }
   #es-rc #es-rc-content .es-routine__step {
