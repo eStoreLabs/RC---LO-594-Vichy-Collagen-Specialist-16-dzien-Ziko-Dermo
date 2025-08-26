@@ -8,7 +8,7 @@ body {
   font-size: 15px;
   font-weight: 500;
   line-height: 1.2;
-  max-width: 1200px;
+  max-width: 720px;
   margin: 0 auto;
   padding: 0;
   overflow: hidden;
@@ -1088,7 +1088,7 @@ body {
     position: relative;
     min-height: 445px;
     background: url(/rich-content/Vichy/Collagen-16/assets/img/kv-photo.png)
-      center center no-repeat;
+      center right no-repeat;
     background-size: cover;
   }
   #es-rc #es-rc-content .es-kv__content {
@@ -1362,7 +1362,7 @@ body {
     display: block;
     position: absolute;
     bottom: 6%;
-    right: 33%;
+    right: 43%;
   }
   #es-rc #es-rc-content .es-routine__button-d--1:hover {
     scale: 1.05;
@@ -1402,6 +1402,8 @@ body {
     margin-bottom: 30px;
   }
   #es-rc #es-rc-content .es-formula {
+    background: url(/rich-content/Vichy/Collagen-16/assets/img/formula-image.png)
+      calc(50% + 75px) center no-repeat;
     min-height: 490px;
   }
   #es-rc #es-rc-content .es-formula__title {
@@ -1425,164 +1427,5 @@ body {
   #es-rc #es-rc-content .es-routine__step {
     position: absolute;
     right: 4%;
-  }
-}
-@media screen and (min-width: 1471px) {
-  #es-rc #es-rc-content .es-kv {
-    min-height: 539px;
-  }
-  #es-rc #es-rc-content .es-kv__content {
-    max-width: 45%;
-    padding-left: 33px;
-    padding-top: 100px;
-  }
-  #es-rc #es-rc-content .es-kv__subtitle {
-    max-width: 365px;
-    font-size: 39px;
-  }
-  #es-rc #es-rc-content .es-kv__subtitle span {
-    font-weight: 500;
-  }
-  #es-rc #es-rc-content .es-collagen__title {
-    left: 22px;
-    font-weight: 500;
-    font-size: 35px;
-  }
-  #es-rc #es-rc-content .es-collagen__image {
-    max-width: 35%;
-  }
-  #es-rc #es-rc-content .es-collagen__item {
-    font-size: 24px;
-  }
-  #es-rc #es-rc-content .es-collagen__item--1 {
-    top: 14%;
-    left: 44%;
-  }
-  #es-rc #es-rc-content .es-collagen__item--2 {
-    top: 18%;
-    left: 58%;
-  }
-  #es-rc #es-rc-content .es-collagen__item--3 {
-    top: 26%;
-    left: 65%;
-  }
-  #es-rc #es-rc-content .es-collagen__item--4 {
-    top: 35%;
-    left: 70%;
-  }
-  #es-rc #es-rc-content .es-collagen__item--5 {
-    top: 46%;
-    left: 70%;
-    right: 16%;
-    text-align: start;
-  }
-  #es-rc #es-rc-content .es-collagen__item--6 {
-    top: 60%;
-    left: 69%;
-  }
-  #es-rc #es-rc-content .es-collagen__item--7 {
-    top: 73%;
-    left: 65%;
-  }
-  #es-rc #es-rc-content .es-collagen__item--8 {
-    top: 82%;
-    left: 58%;
-  }
-  #es-rc #es-rc-content .es-collagen__item--9 {
-    top: 85%;
-    left: 46%;
-  }
-  #es-rc #es-rc-content .es-collagen__item--10 {
-    top: 82%;
-    left: 36%;
-  }
-  #es-rc #es-rc-content .es-collagen__item--11 {
-    top: 73%;
-    left: 25%;
-  }
-  #es-rc #es-rc-content .es-collagen__item--12 {
-    top: 60%;
-    left: 21%;
-  }
-  #es-rc #es-rc-content .es-collagen__item--13 {
-    top: 49%;
-    left: 24%;
-  }
-  #es-rc #es-rc-content .es-collagen__item--14 {
-    top: 36%;
-    left: 23%;
-  }
-  #es-rc #es-rc-content .es-collagen__item--15 {
-    top: 26%;
-    left: 26%;
-  }
-  #es-rc #es-rc-content .es-collagen__item--16 {
-    top: 18%;
-    left: 34%;
-  }
-  #es-rc #es-rc-content .es-routine {
-    background: url(/rich-content/Vichy/Collagen-16/assets/img/routine-bg.png)
-      center center no-repeat;
-  }
-  #es-rc #es-rc-content .es-routine__title {
-    padding-left: 20px;
-    font-size: 35px;
-    line-height: 1.4;
-    font-weight: 400;
-  }
-  #es-rc #es-rc-content .es-routine__step {
-    position: absolute;
-    left: 61%;
-  }
-}
-@media screen and (min-width: 1673px) {
-  #es-rc #es-rc-content .es-header__right {
-    max-width: 260px;
-    margin-right: -10px;
-  }
-  #es-rc #es-rc-content .es-header__title {
-    letter-spacing: 0.4em;
-  }
-  #es-rc #es-rc-content .es-compare__mobile-wrapper {
-    flex-wrap: nowrap;
-    -webkit-box-pack: justify;
-    justify-content: space-between;
-    gap: 0;
-  }
-  #es-rc #es-rc-content .es-compare__single {
-    min-width: 394px;
-  }
-  #es-rc #es-rc-content .es-compare__single-image {
-    min-height: 180px;
-    transition: transform 0.3s ease-in-out;
-  }
-  #es-rc #es-rc-content .es-compare__single-image:hover {
-    scale: 1.05;
-  }
-  #es-rc #es-rc-content .es-compare__single-title {
-    font-size: 15px;
-    margin-bottom: 50px;
-  }
-  #es-rc #es-rc-content .es-compare__type-subtitle,
-  #es-rc #es-rc-content .es-compare__effect-subtitle,
-  #es-rc #es-rc-content .es-compare__consistency-subtitle {
-    font-size: 20px;
-    padding-right: 30px;
-    padding-left: 30px;
-  }
-  #es-rc #es-rc-content .es-compare__problem-subtitle,
-  #es-rc #es-rc-content .es-compare__action-subtitle {
-    font-size: 20px;
-    padding-right: 30px;
-    padding-left: 30px;
-    font-weight: 400;
-  }
-  #es-rc #es-rc-content .es-collagen__ba-group {
-    bottom: 11%;
-    left: 3%;
-  }
-  #es-rc #es-rc-content .es-collagen__disclaimer {
-    bottom: 4%;
-    left: 3%;
   }
 }
